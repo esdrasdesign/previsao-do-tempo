@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-image: url(https://source.unsplash.com/random/1920x1080/?nature,urban,4k);
+    background-size: cover;
+    height: 100vh; /* altura */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.caixa-maior{
+    background-color: #202020; /* cor */
+    opacity: 0.8; /* transparencia */
+    width: 95%; 
+    max-width: 450px;
+    max-height: 600px;
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(230, 230, 230);
+}
+
+.botao{
+    border: none;
+    padding: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 20px;
+    float: right;
+
+}
+
+button:hover{
+    background-color: #202020;
+}
+
+.lupa{
+    height: 20px;
+    width: 20px;
+    
+}
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: rgb(31, 31, 31);
+    width: calc(100% - 100px);
+    font-size: 15px;
+}
+
+.texto{
+    margin-top: 20px;
+}
+
+.cidade{
+    font-size: 25px;
+}
+
+.temp{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.caixa-icone{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.umidade{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/**
+.icone-nuvem{
+
+}
+**/
+
+
